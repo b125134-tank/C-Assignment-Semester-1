@@ -25,5 +25,6 @@ The if has an empty block ({}) and the program then returns 0.
 This is a common trick used in C puzzles to print output "without using a semicolon" for the printf statement itself.
 
 Expected output
+
 ASSINGMENT-1 
 Tanishq

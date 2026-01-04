@@ -17,11 +17,13 @@ int main()
     if(printf("ASSINGMENT-1 \nTanishq")){}
     return 0;
 }
+
 How it works
 printf() returns the number of characters printed (an integer > 0 when it prints something).
 The program uses if(printf(...)) {}. Because the return value is non-zero, the if condition is true — the printf call itself is written inside the if parentheses, so that call does not need a trailing semicolon.
 The if has an empty block ({}) and the program then returns 0.
 This is a common trick used in C puzzles to print output "without using a semicolon" for the printf statement itself.
+
 Expected output
 ASSINGMENT-1 
-Rishav shaw
+Tanishq
